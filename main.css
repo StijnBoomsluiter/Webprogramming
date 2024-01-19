@@ -1,0 +1,236 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease; 
+
+}
+
+
+.advert-container {
+    text-align: center;
+    background-color: #F2F7FC;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    overflow: hidden;
+    height: 450px;
+}
+
+#coolblue-logo {
+    width: 250px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; 
+}
+
+#nieuw{
+    width: 47px;
+    border-radius: 3px;
+    height: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #FD6721;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#blok{
+    line-height: 0.8px;
+    text-align: left;
+    font-size: 24px;
+    color: #1792E1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#prijs{
+    line-height: 0.8px;
+    text-align: left;
+    font-size: 24px;
+    color: #305D9E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#darkblue-box{
+    margin-right: 15px;
+    padding: 55px 55px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #305D9E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Voeg schaal- en schaduweffect toe */
+}
+
+#blue-box{
+    padding: 55px 55px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1792E1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Voeg schaal- en schaduweffect toe */
+}
+
+#orange-box{
+    margin-left: 15px;
+    padding: 55px 55px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FD6721;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Voeg schaal- en schaduweffect toe */
+}
+
+#darkblue-box:hover{
+    background-color: #305D9E;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+#blue-box:hover{
+    background-color: #1792E1;
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+#orange-box:hover{
+    background-color: #FD6721;
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+#laptop {
+    width: 50%;
+    border-radius: 10px;
+    bottom: 0;
+}
+
+#prijskaart-laptop{
+    color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #FD6721;
+    font-weight: bold;
+    margin: auto;
+    transform: translate(-105px, -100px);
+
+}
+#prijskaart-laptop h2{
+    padding-top: 0px;
+    margin: 0;
+
+}
+#prijskaart-laptop h3{
+    margin: 0;
+    padding-top: 22px;
+    padding-right: 15px;
+    font-style: italic;
+    font-size: small;
+}
+#prijskaart-laptop h3 span{
+    text-decoration: line-through;
+}
+
+
+#image-container-darkblue{
+  transform: translate(-500px, -100px);
+}
+
+#image-container-blue{
+    transform: translate(-500px, -400px);
+  }
+
+  #image-container-orange{
+    transform: translate(-500px, -643px);
+  }
+
+
+
+  #televisie {
+    width: 50%;
+    border-radius: 10px;
+    bottom: 0;
+}
+
+#prijskaart-televisie{
+    color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #FD6721;
+    font-weight: bold;
+    margin: auto;
+    transform: translate(-105px, -100px);
+
+}
+#prijskaart-televisie h2{
+    padding-top: 0px;
+    margin: 0;
+
+}
+#prijskaart-televisie h3{
+    margin: 0;
+    padding-top: 22px;
+    padding-right: 15px;
+    font-style: italic;
+    font-size: small;
+}
+#prijskaart-televisie h3 span{
+    text-decoration: line-through;
+}
+
+#iphone {
+    width: 50%;
+    border-radius: 10px;
+    bottom: 0;
+}
+
+#prijskaart-iphone{
+    color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #FD6721;
+    font-weight: bold;
+    margin: auto;
+    transform: translate(-65px, -80px);
+
+}
+#prijskaart-iphone h2{
+    padding-top: 0px;
+    margin: 0;
+
+}
+#prijskaart-iphone h3{
+    margin: 0;
+    padding-top: 22px;
+    padding-right: 15px;
+    font-style: italic;
+    font-size: small;
+}
+#prijskaart-iphone h3 span{
+    text-decoration: line-through;
+}
+
+
+
+
+
+/* Mediaquery voor mobiele apparaten */
+@media only screen and (max-width: 600px) {
+    .advert-container {
+        max-width: none;
+    }
+}
