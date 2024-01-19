@@ -1,35 +1,14 @@
-$(document).ready(function() {
+$(document).ready(function(){
+    var tl = gsap.timeline({ repeat: -1 });
 
-    $('#darkblue-box').on('click', function() {
-        gsap.to("#darkblue-box", 1, {x: 550})
-        gsap.to("#image-container-darkblue", 1, {x: 1})
-
-
-
-        gsap.to("#blue-box", 1, {x: 550})
-        gsap.to("#orange-box", 1, {x: 550})
-
-      });
-
-
-    $('#blue-box').on('click', function() {
-        gsap.to("#blue-box", 1, {x: 550})
-        gsap.to("#image-container-blue", 1, {x: 1})
-
-        gsap.to("#darkblue-box", 1, {x: 550})
-        gsap.to("#orange-box", 1, {x: 550})
-
+    tl.to(".coolblue", {
+        scale: 1.15,
+        duration: 0.5,
+        ease: "power2.out" 
     })
-
-
-    $('#orange-box').on('click', function() {
-        gsap.to("#orange-box", 1, {x: 550})
-        gsap.to("#image-container-orange", 1, {x: 1})
-
-        gsap.to("#darkblue-box", 1, {x: 550})
-        gsap.to("#blue-box", 1, {x: 550})
-    })      
-
-
-//end document ready
+    .to(".coolblue", {
+        scale: 1,
+        duration: 1,
+        ease: "power2.in"
+    });
 });
