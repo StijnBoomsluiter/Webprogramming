@@ -1,4 +1,4 @@
-body {
+body{
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
     margin: 0;
@@ -6,100 +6,73 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; 
+
 }
 
 .advert-container {
-    text-align: left;
-    background-color: #3498db;
+    background-color: #1792E1;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    max-width: 700px;
     width: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 170px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    overflow: hiden;
+    height: 100px;
 }
 
-.app{
-    background-color: #FD6721;
+.beste{
     color: white;
-    font-size: 16px;
-    width: 102px;
-    padding: 6px;
-    font-family: arial;
-    border-radius: 5px;
-}
-
-.snel{
-    color: white;
-    margin-top: -3px;
-    font-weight: 100;
-    font-size: 22px;
-}
-
-.supersnel{
-    color: white;
-    font-weight: bold;
-}
-
-.product{
-    color: white;
-    margin-top: -15px;
-    font-weight: 100;
-    font-size: 22px;
-}
-
-.appstore{
-    width: 7%;
+    font-size: 32px;
     position: absolute;
-    top: 54.5%;
+    top: 40%;
+    left: 25%;
 }
 
-.playstore:hover{
-    transform: scale(1.15);
+.punt{
+    color: #FD6721;
+}
+
+.studie{
+    color: #305D9E;
+    font-size: 32px;
+    background-color: white;
+    width: 219px;
+    padding: 5px;
+    position: absolute;
+    top: 46%;
+    left: 25%;
+}
+
+.laptop{
+    width: 19%;
+    position: absolute;
+    top: 37%;
+    left: 42%;
+}
+
+.medewerker{
+    width: 5.5%;
+    position: absolute;
+    top: 39.6%;
+    left: 67%;
+}
+
+.laptop:hover{
+    cursor: pointer;
     transition: 0.3s all ease-in-out;
-    cursor: pointer;
+    transform: scale(1.10); 
 }
 
-.appstore:hover{
-    transform: scale(1.15);
+.beste:hover{
+    cursor: pointer;
     transition: 0.3s all ease-in-out;
+    transform: scale(1.05); 
+}
+
+.studie:hover{
     cursor: pointer;
-}
-
-.playstore{
-    width: 8%;
-    position: absolute;
-    top: 53.5%;
-    left: 43%;
-}
-
-.download{
-    color: white;
-    margin-top: 55px;
-    width: 217px;
-}
-
-.volgende{
-    color: white;
-}
-
-.download:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    transform: scale(1.02);
-}
-
-.volgende:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    transform: scale(1.02);
-}
-
-.gif{
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    width: 15%;
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.05); 
 }
