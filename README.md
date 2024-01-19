@@ -1,2 +1,2 @@
 # Webprogramming
-Advertisments for Webprogramming. 
+Advertisements of Coolblue for Webprogramming. 
